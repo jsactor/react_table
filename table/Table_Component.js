@@ -132,8 +132,7 @@ function Table(props) {
   };
 
   const rows = (data, thead) => {
-    const cells = data.map((row, i) => tr(row, i, thead));
-    return cells;
+    return data.map((row, i) => tr(row, i, thead));
   };
 
   return (

@@ -22,8 +22,7 @@ function Table(props) {
   };
 
   const rows = (data, thead) => {
-    const rows = data.map((row, i) => tr(row, i, thead));
-    return rows;
+    return data.map((row, i) => tr(row, i, thead));
   };
 
   return (
